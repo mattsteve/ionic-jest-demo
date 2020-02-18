@@ -22,6 +22,6 @@ test('ion-input exists', async () => {
 
 test('ion-input is hydrated', async () => {
     const input = document.querySelector('ion-input');
-    wait(2000);
+    await wait(2000);
     expect(input.classList.contains('hydrated')).toBeTruthy();
 });
