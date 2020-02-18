@@ -7,10 +7,8 @@ async function createPage() {
     const label = document.createElement('ion-label');
     label.setAttribute('position', 'stacked');
     label.textContent = 'Type Something: ';
-    label.for = 'input';
 
     const input = document.createElement('ion-input');
-    input.id = 'input'
 
     item.appendChild(label);
     item.appendChild(input);
